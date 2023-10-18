@@ -5,7 +5,7 @@
     <!-- Project from https://start.vaadin.com/project/350e25fc-ddb4-4851-b36f-fce117a145d9 -->
     <groupId>com.example.application</groupId>
     <artifactId>flowcrmtutorial</artifactId>
-    <name>flowcrmtutorial</name>
+    <name>flowcrm</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
