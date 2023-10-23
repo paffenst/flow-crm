@@ -4,6 +4,9 @@ import com.example.application.data.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
+import static java.lang.System.*;
+
 @Service
 public class CrmService {
 
@@ -36,7 +39,7 @@ public class CrmService {
 
     public void saveContact(Contact contact) {
         if (contact == null) {
-            System.err.println("Contact is null. Are you sure you have connected your form to the application?");
+            err.println("Contact is null. Are you sure you have connected your form to the application?");
             return;
         }
         contactRepository.save(contact);
