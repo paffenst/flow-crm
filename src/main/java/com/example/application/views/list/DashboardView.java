@@ -11,10 +11,12 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.theme.lumo.LumoUtility;
+import jakarta.annotation.security.PermitAll;
 
+@PermitAll
 @Route(value = "dashboard", layout = MainLayout.class)
-    @PageTitle("Dashboard | Vaadin CRM")
-    public class DashboardView extends VerticalLayout {
+@PageTitle("Dashboard | Vaadin CRM")
+public class DashboardView extends VerticalLayout {
         private final CrmService service;
 
         public DashboardView(CrmService service) {
